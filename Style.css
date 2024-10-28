@@ -1,0 +1,44 @@
+#botoncontactanos {
+    width: 250px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(9, 255, 0);
+    border: solid;
+    height: 50px;
+}
+
+
+
+#titulo {
+text-align: center;
+}
+
+form {
+    background-color: rgb(252, 234, 209);
+    border-radius: 20px;
+    padding-inline: 70px;
+    height: 280px;
+    width: 270px; 
+    margin: auto;
+    align-items: center;
+}
+
+input {
+    width: 210px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(255, 253, 249);
+}
+
+#boton1 {
+    width: 120px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(230, 216, 190);
+}
+
+#boton1:hover {
+    background-color: rgb(235, 213, 165);
+}
