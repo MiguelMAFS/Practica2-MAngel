@@ -1,3 +1,13 @@
+#margentitulo{
+    background-color: rgb(248, 227, 199);
+    transition: background-color;
+}
+
+#margentitulo:hover {
+    background-color:rgb(247, 216, 179)
+}
+
+
 #botoncontactanos {
     width: 250px;
     color: rgb(0, 0, 0);
@@ -6,7 +16,9 @@
     height: 50px;
 }
 
-
+#botoncontactanos:hover {
+    background-color: aqua;
+}
 
 #titulo {
 text-align: center;
@@ -30,6 +42,7 @@ input {
 
 body {
     background-color: rgb(255, 253, 249);
+    transition: margin 1s;
 }
 
 #boton1 {
@@ -42,3 +55,123 @@ body {
 #boton1:hover {
     background-color: rgb(235, 213, 165);
 }
+
+.box {
+    width: 150px;
+    height: 10px;
+    background-color:rgb(235, 235, 235);
+    transition: width 0.5s, background-color 1s;
+}
+.box:hover {
+    width: 170px;
+    background-color:rgb(255, 255, 255);
+    border: solid blue;
+}
+
+#ball2 {
+    Width: 60px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation: complexAnimation 10s infinite, moveInCircle 5s infinite;
+    border-radius: 100%;
+    transition: width 10s, background-color 1s, height 10s;
+}
+
+@keyframes complexAnimation {
+    0% {left:0;}
+    50% {left:200px;}
+    100% {left:0;}
+    0% {background-color: blueviolet;}
+    100% {background-color: blue;}
+    0% {
+        background-color: red;
+        transform:scale(1) translateX(0);
+    }
+    50% {
+        background-color: yellow;
+        transform:scale(1.5) translateX(100px);
+    }
+    100% {
+        background-color: rgb(1, 36, 1);
+        transform:scale(10) translateX(0);
+    }
+}
+
+@keyframes moveInCircle {
+    0% {transform: translate(0,0); }
+    25% {transform: translate(0,100px); }
+    50% {transform: translate(100px,100px); }
+    100% {transform: translate(100px,0); }
+}
+
+#ball1 { 
+    Width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation: complexAnimation 10s infinite, moveInCircle 5s infinite;
+    border-radius: 100%;
+    transition: width 10s, background-color 1s, height 10s;
+}
+
+#Foto1 {
+    width: 400px;
+    height: 400px;
+    transition: width 1s, height 1s, margin 1s
+}
+
+#Foto1:hover {
+    width: 470px;
+    height: 470px;
+    margin: 2%
+}
+
+p {
+    transition: margin 1s;
+}
+
+p:hover{
+    margin: 0.5%
+}
+
+h3{
+    transition: margin 1s
+}
+
+h3:hover{
+    margin: 0.5%;
+
+}
+h4{
+    transition: margin 1s
+}
+
+h4:hover{
+    margin: 0.5%;
+
+}
+h1 {
+    text-align: center;
+}
+
+
+#buscador {
+    background-color: bisque;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-left: 10;
+}
+
+#buscador:hover{
+background-color: rgb(255, 214, 164);
+
+}
+
+
+
+#serrod{
+    display: flex;
+    justify-content: space-around;
+}
+
